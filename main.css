@@ -1,0 +1,152 @@
+@font-face {font-family: 'p';
+    src: url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
+}
+@font-face {font-family: 'h1';
+    src: url('//at.alicdn.com/t/webfont_viwhs70mtp.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_viwhs70mtp.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/webfont_viwhs70mtp.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/webfont_viwhs70mtp.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/webfont_viwhs70mtp.svg#after') format('svg'); /* iOS 4.1- */
+}
+@media screen and (max-width: 600px) {
+    #left, #right {
+        display: block !important;
+        width: 100% !important;
+    }
+    #main_title {
+        margin-bottom: 30px !important;
+    }
+    #page_content {
+        padding: 80px 5% !important;
+    }
+    #logo {
+        box-sizing: border-box !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+h1 {
+    font-size: 1.3em;
+    font-family: 'h1';
+    font-weight: normal;
+    margin: 10px 0;
+}
+p {
+    font-family: 'p';
+    font-size: 1.1em;
+    margin: 8px 0;
+}
+img {
+    user-select: none;
+}
+#page_content {
+    width: 100%;
+    height: 100%;
+    padding: 40px 10%;
+    box-sizing: border-box;
+}
+#logo {
+    width: 400px;
+    height: 80px;
+    user-select: none;
+}
+/* #main_title {
+    display: inline-block;
+    border-bottom: 4px solid rgb(80, 230, 255);
+} */
+.line {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #00695c;
+}
+.line_inside {
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+    display: block;
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 4px;
+    background: #ffeb3b;
+    width: 100%;
+}
+.red {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 10px;
+    border-radius: 8px;
+    background: #ff1744;
+    box-shadow: 0 2px 3px #d50000;
+    transition: 0.4s;
+    color: #fff;
+    position: relative;
+    top: 0;
+}
+.red:after {
+    content: '';
+    position: absolute; 
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+    display: block;
+    background: url(./images/win@0.5x.png);
+    background-size: 50px 50px;
+}
+.red:hover {
+    box-shadow: 0 8px 10px #d50000;
+    top: -4px;
+}
+.blue {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 10px;
+    border-radius: 8px;
+    background: #2979ff;
+    box-shadow: 0 2px 3px #2962ff;
+    transition: 0.4s;
+    color: #fff;
+    position: relative;
+    top: 0;
+}
+.blue:hover {
+    box-shadow: 0 8px 10px #2962ff;
+    top: -4px;
+}
+.red, .blue {
+    color: #fff;
+}
+.words {
+    color: #fff;
+    background: rgb(36, 58, 94);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 10px;
+    border-radius: 8px;
+    border: 3px solid rgb(36, 58, 94);
+    transition: 0.4s;
+    box-shadow: 0px 2px 3px rgb(16, 38, 74);
+}
+.words:hover {
+    border: 3px solid #ffeb3b;
+    box-shadow: 0px 2px 3px #efdb2e;
+    border-radius: 0;
+}
+.words p {
+    text-indent: 2em;
+}
