@@ -1,9 +1,9 @@
 @font-face {font-family: 'p';
-    src: url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.eot'); /* IE9*/
-    src: url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.woff') format('woff'), /* chrome、firefox */
-    url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('//at.alicdn.com/t/webfont_ad8jkcmf2zv.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
+  src: url('//at.alicdn.com/t/webfont_czfuav9768p.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_czfuav9768p.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_czfuav9768p.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_czfuav9768p.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_czfuav9768p.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
 }
 @font-face {font-family: 'h1';
     src: url('//at.alicdn.com/t/webfont_viwhs70mtp.eot'); /* IE9*/
@@ -103,7 +103,7 @@ img {
     right: 10px;
     top: 10px;
     display: block;
-    background: url(./images/win@0.5x.png);
+    background: url(./win@0.5x.png);
     background-size: 50px 50px;
 }
 .red:hover {
